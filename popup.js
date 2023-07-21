@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Define the limit (number of jokes) and the API URL to retrieve the jokes
     function getJoke() {
       var limit = 1; // Default value: 1 joke
-      var apiKey = 'W71gFsBQQReruydK4ipfOg==QscIYLyAN1gDsBJg'; // Replace with your API Ninjas API key
-      var apiUrl = `https://api.api-ninjas.com/v1/jokes?limit=${limit}`;
+      var apiKey = ; // Replace with your API Ninjas API key
+      var apiUrl = `https://api.api-ninjas.com/v1/jokes?limit=${limit}`; //apiUrl will be available on API Ninjas website
   
       fetch(apiUrl, {
         headers: {
